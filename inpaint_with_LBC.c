@@ -2147,13 +2147,13 @@ while (uerr>eps ||  perr>eps)
 /* clip to [0, 255]  in case outliers */
 for (i=1; i<=nx; i++)
   for (j=1; j<=ny; j++)
-	  {
-	  if (U[0][i][j] > 255)
-		  U[0][i][j] = 255;
+      {
+      if (U[0][i][j] > 255)
+          U[0][i][j] = 255;
 
-	  if (U[0][i][j] < 0)
-		  U[0][i][j] = 0;
-	  }
+      if (U[0][i][j] < 0)
+          U[0][i][j] = 0;
+      }
 
 
 /* ---- free memory ---- */
@@ -2247,9 +2247,9 @@ n_mask_points = 0;
 for (i=1; i<=nx; i++)
   for (j=1; j<=ny; j++)
     if (a[i][j] < 128)
-		a[i][j] = 0;
+        a[i][j] = 0;
     else
-		a[i][j] = 1;
+        a[i][j] = 1;
 
 
 /* ---- read other parameters ---- */
