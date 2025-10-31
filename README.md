@@ -1,5 +1,5 @@
 # Inpainting-LBC
-Inpainting With Local Binary Constraints
+Inpainting With Local Binary Constraints. This was a project for my Masters thesis.
 
 The inlpe_with_LBC.c  allows to  perform image inpainting with homogeneous diffusion using Local Binary Patterns as additional constraints for unknown pixels around inpainting mask locations. 
 
